@@ -67,8 +67,9 @@ document.getElementById("book-now").addEventListener("click", function () {
           'Thank You For Select Us For Your Trip . We Will Give You Our Best Service.We hope you have a safe journey with us',
           'success'
         )
+        
       // For more information about handling dismissals please visit
-      // https://sweetalert2.github.io/#handling-dismissals
+    
       } else if (result.dismiss === Swal.DismissReason.cancel) {
         Swal.fire(
           'Cancelled',
@@ -79,10 +80,7 @@ document.getElementById("book-now").addEventListener("click", function () {
     })
   }
 
-  // const bookingTicket = document.getElementById("booking-ticket");
-  // bookingTicket.style.display = "none";
-  // const confirmationArea = document.getElementById("confirmation");
-  // confirmationArea.style.display = "block";
+
 });
 
 //confirmation section function end
